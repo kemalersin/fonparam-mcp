@@ -448,7 +448,7 @@ export class FonParamTools {
         }
       },
       {
-        name: 'inflation_rate_by_month',
+        name: 'monthly_inflation_rate',
         description: 'Belirli bir ay ve yıldaki enflasyon verisini getirir',
         inputSchema: {
           type: 'object',
@@ -538,7 +538,7 @@ export class FonParamTools {
         case 'latest_inflation_rate':
           return await this.apiClient.getLatestInflationRate();
 
-        case 'inflation_rate_by_month':
+        case 'monthly_inflation_rate':
           return await this.apiClient.getInflationRateByMonth(args.year, args.month);
 
         default:

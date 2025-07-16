@@ -95,7 +95,7 @@ Konfigürasyonu ekledikten sonra Claude Desktop'ı kapatıp yeniden açın.
 
 - **`inflation_rates`**: Enflasyon verilerini listeler
 - **`latest_inflation_rate`**: En son enflasyon verisini getirir
-- **`inflation_rate_by_month`**: Belirli ay/yıl enflasyon verisini getirir
+- **`monthly_inflation_rate`**: Belirli ay/yıl enflasyon verisini getirir
 
 ## 💡 Kullanım Örnekleri
 
