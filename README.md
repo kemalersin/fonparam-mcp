@@ -70,32 +70,32 @@ Konfigürasyonu ekledikten sonra Claude Desktop'ı kapatıp yeniden açın.
 ### 📊 Fon Araçları
 
 - **`list_funds`**: Fonları listeler ve filtreler
-- **`get_top_performing_funds`**: En iyi performans gösteren fonları getirir
+- **`top_performing_funds`**: En iyi performans gösteren fonları getirir
 - **`compare_funds`**: Fonları karşılaştırır (2-5 fon)
 - **`analyze_fund`**: Fon yatırım analizi yapar
-- **`get_fund_historical_data`**: Fonun geçmiş değerlerini getirir
+- **`fund_historical_data`**: Fonun geçmiş değerlerini getirir
 
 ### 🏢 Şirket Araçları
 
 - **`list_companies`**: Portföy yönetim şirketlerini listeler
-- **`get_company_details`**: Şirket detaylarını getirir
+- **`company_details`**: Şirket detaylarını getirir
 
 ### 📈 İstatistik Araçları
 
-- **`get_statistics`**: Günlük istatistikleri listeler
-- **`get_latest_statistics`**: En son istatistikleri getirir
-- **`get_statistics_by_date`**: Belirli tarihteki istatistikleri getirir
+- **`statistics`**: Günlük istatistikleri listeler
+- **`latest_statistics`**: En son istatistikleri getirir
+- **`statistics_by_date`**: Belirli tarihteki istatistikleri getirir
 
 ### 🎯 Fon Tipi Araçları
 
 - **`list_fund_types`**: Fon tiplerini listeler
-- **`get_fund_type_details`**: Fon tipi detaylarını getirir
+- **`fund_type_details`**: Fon tipi detaylarını getirir
 
 ### 💰 Enflasyon Araçları
 
-- **`get_inflation_rates`**: Enflasyon verilerini listeler
-- **`get_latest_inflation_rate`**: En son enflasyon verisini getirir
-- **`get_inflation_rate_by_month`**: Belirli ay/yıl enflasyon verisini getirir
+- **`inflation_rates`**: Enflasyon verilerini listeler
+- **`latest_inflation_rate`**: En son enflasyon verisini getirir
+- **`inflation_rate_by_month`**: Belirli ay/yıl enflasyon verisini getirir
 
 ## 💡 Kullanım Örnekleri
 

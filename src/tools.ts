@@ -149,7 +149,7 @@ export class FonParamTools {
         }
       },
       {
-        name: 'get_top_performing_funds',
+        name: 'top_performing_funds',
         description: 'En iyi performans gösteren fonları getirir',
         inputSchema: {
           type: 'object',
@@ -224,7 +224,7 @@ export class FonParamTools {
         }
       },
       {
-        name: 'get_fund_historical_data',
+        name: 'fund_historical_data',
         description: 'Fonun geçmiş değerlerini getirir',
         inputSchema: {
           type: 'object',
@@ -303,7 +303,7 @@ export class FonParamTools {
         }
       },
       {
-        name: 'get_company_details',
+        name: 'company_details',
         description: 'Portföy yönetim şirketi detaylarını getirir',
         inputSchema: {
           type: 'object',
@@ -321,7 +321,7 @@ export class FonParamTools {
         }
       },
       {
-        name: 'get_statistics',
+        name: 'statistics',
         description: 'Günlük istatistikleri listeler',
         inputSchema: {
           type: 'object',
@@ -358,7 +358,7 @@ export class FonParamTools {
         }
       },
       {
-        name: 'get_latest_statistics',
+        name: 'latest_statistics',
         description: 'Son istatistikleri getirir',
         inputSchema: {
           type: 'object',
@@ -366,7 +366,7 @@ export class FonParamTools {
         }
       },
       {
-        name: 'get_statistics_by_date',
+        name: 'statistics_by_date',
         description: 'Belirli bir günün istatistiklerini getirir',
         inputSchema: {
           type: 'object',
@@ -408,7 +408,7 @@ export class FonParamTools {
         }
       },
       {
-        name: 'get_fund_type_details',
+        name: 'fund_type_details',
         description: 'Belirli bir fon tipinin detaylarını getirir',
         inputSchema: {
           type: 'object',
@@ -423,7 +423,7 @@ export class FonParamTools {
         }
       },
       {
-        name: 'get_inflation_rates',
+        name: 'inflation_rates',
         description: 'Enflasyon verilerini listeler',
         inputSchema: {
           type: 'object',
@@ -440,7 +440,7 @@ export class FonParamTools {
         }
       },
       {
-        name: 'get_latest_inflation_rate',
+        name: 'latest_inflation_rate',
         description: 'Son enflasyon verisini getirir',
         inputSchema: {
           type: 'object',
@@ -448,7 +448,7 @@ export class FonParamTools {
         }
       },
       {
-        name: 'get_inflation_rate_by_month',
+        name: 'inflation_rate_by_month',
         description: 'Belirli bir ay ve yıldaki enflasyon verisini getirir',
         inputSchema: {
           type: 'object',
@@ -479,7 +479,7 @@ export class FonParamTools {
           const fundsParams = ListFundsSchema.parse(args);
           return await this.apiClient.listFunds(fundsParams);
 
-        case 'get_top_performing_funds':
+        case 'top_performing_funds':
           return await this.apiClient.getTopPerformingFunds(args.reference_funds);
 
         case 'compare_funds':
@@ -501,7 +501,7 @@ export class FonParamTools {
             includeMonthlyDetails: analyzeParams.includeMonthlyDetails
           });
 
-        case 'get_fund_historical_data':
+        case 'fund_historical_data':
           const historicalParams = HistoricalDataSchema.parse(args);
           const { code, ...histParams } = historicalParams;
           return await this.apiClient.getFundHistoricalData(code, histParams);
@@ -510,35 +510,35 @@ export class FonParamTools {
           const companiesParams = ListCompaniesSchema.parse(args);
           return await this.apiClient.listCompanies(companiesParams);
 
-        case 'get_company_details':
+        case 'ompany_details':
           const companyParams = CompanyDetailsSchema.parse(args);
           return await this.apiClient.getCompanyDetails(companyParams.code, companyParams.include_funds);
 
-        case 'get_statistics':
+        case 'statistics':
           const statsParams = StatisticsSchema.parse(args);
           return await this.apiClient.getStatistics(statsParams);
 
-        case 'get_latest_statistics':
+        case 'latest_statistics':
           return await this.apiClient.getLatestStatistics();
 
-        case 'get_statistics_by_date':
+        case 'statistics_by_date':
           return await this.apiClient.getStatisticsByDate(args.date);
 
         case 'list_fund_types':
           const fundTypesParams = FundTypesSchema.parse(args);
           return await this.apiClient.listFundTypes(fundTypesParams);
 
-        case 'get_fund_type_details':
+        case 'fund_type_details':
           return await this.apiClient.getFundTypeDetails(args.type);
 
-        case 'get_inflation_rates':
+        case 'inflation_rates':
           const inflationParams = InflationSchema.parse(args);
           return await this.apiClient.getInflationRates(inflationParams);
 
-        case 'get_latest_inflation_rate':
+        case 'latest_inflation_rate':
           return await this.apiClient.getLatestInflationRate();
 
-        case 'get_inflation_rate_by_month':
+        case 'inflation_rate_by_month':
           return await this.apiClient.getInflationRateByMonth(args.year, args.month);
 
         default:
