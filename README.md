@@ -1,5 +1,7 @@
 # 📊 FonParam MCP Sunucusu
 
+[![smithery badge](https://smithery.ai/badge/@kemalersin/fonparam-mcp)](https://smithery.ai/server/@kemalersin/fonparam-mcp)
+
 Bu Model Context Protocol (MCP) sunucusu, Claude Desktop'un Türkiye'deki yatırım fonları verilerine erişmesini sağlar. [FonParam API](https://api.fonparam.com) üzerinden fonların güncel verilerini, performans istatistiklerini ve karşılaştırmalarını alabilirsiniz.
 
 ## ✨ Özellikler
@@ -13,6 +15,14 @@ Bu Model Context Protocol (MCP) sunucusu, Claude Desktop'un Türkiye'deki yatır
 - 💰 **Enflasyon Verileri**: Türkiye enflasyon oranları
 
 ## 🚀 Kurulum
+
+### Installing via Smithery
+
+To install fonparam-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kemalersin/fonparam-mcp):
+
+```bash
+npx -y @smithery/cli install @kemalersin/fonparam-mcp --client claude
+```
 
 ### 1. Bağımlılıkları Yükleyin
 
