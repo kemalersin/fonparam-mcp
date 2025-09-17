@@ -4,6 +4,10 @@
 
 Bu Model Context Protocol (MCP) sunucusu, Claude Desktop'un Türkiye'deki yatırım fonları verilerine erişmesini sağlar. [FonParam API](https://api.fonparam.com) üzerinden fonların güncel verilerini, performans istatistiklerini ve karşılaştırmalarını alabilirsiniz.
 
+<a href="https://glama.ai/mcp/servers/@kemalersin/fonparam-mcp">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@kemalersin/fonparam-mcp/badge" alt="FonParam MCP server" />
+</a>
+
 ## ✨ Özellikler
 
 - 📈 **Fon Listeleme**: Tüm yatırım fonlarını filtreleme ve arama
@@ -187,4 +191,4 @@ Bu sunucu FonParam API'sinin ücretsiz katmanını kullanır ve rate limiting ku
 - 15 dakikada maksimum 25 istek
 - Günlük maksimum 100 istek
 
-Yoğun kullanım için API anahtarı almayı düşünebilirsiniz. 
+Yoğun kullanım için API anahtarı almayı düşünebilirsiniz.
