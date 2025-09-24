@@ -1,6 +1,6 @@
 {
   "name": "fonparam-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for FonParam API - Turkish mutual funds data",
   "main": "dist/index.js",
   "type": "module",
@@ -21,7 +21,11 @@
     "finance",
     "investment"
   ],
-  "author": "Claude AI Assistant",
+  "author": "Kemal Ersin YILMAZ",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kemalersin/fonparam-mcp"
+  },
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^0.4.0",
@@ -32,4 +36,4 @@
     "@types/node": "^20.0.0",
     "typescript": "^5.3.0"
   }
-} 
+}
