@@ -14,19 +14,25 @@ Bu Model Context Protocol (MCP) sunucusu, Claude Desktop'un Türkiye'deki yatır
 
 ## 🚀 Kurulum
 
-### 1. Bağımlılıkları Yükleyin
+### Seçenek 1: NPM ile Kurulum (Önerilen)
+
+NPM paketi otomatik olarak çalıştırılacağı için ayrı kurulum gerekmez. Claude Desktop konfigürasyonunda `npx` kullanarak paketi çalıştırabilirsiniz.
+
+### Seçenek 2: Kaynak Koddan Kurulum
+
+#### 1. Bağımlılıkları Yükleyin
 
 ```bash
 npm install
 ```
 
-### 2. Projeyi Derleyin
+#### 2. Projeyi Derleyin
 
 ```bash
 npm run build
 ```
 
-### 3. Claude Desktop Konfigürasyonu
+### Claude Desktop Konfigürasyonu
 
 Claude Desktop'ın `claude_desktop_config.json` dosyasına aşağıdaki konfigürasyonu ekleyin:
 
@@ -47,6 +53,20 @@ Claude Desktop'ın `claude_desktop_config.json` dosyasına aşağıdaki konfigü
 
 **Konfigürasyon:**
 
+#### NPM paketi kullanıyorsanız (önerilen):
+```json
+{
+  "mcpServers": {
+    "fonparam": {
+      "command": "npx",
+      "args": ["-y", "fonparam-mcp"],
+      "env": {}
+    }
+  }
+}
+```
+
+#### Kaynak koddan kurulum yaptıysanız:
 ```json
 {
   "mcpServers": {
@@ -59,7 +79,7 @@ Claude Desktop'ın `claude_desktop_config.json` dosyasına aşağıdaki konfigü
 }
 ```
 
-> **Not**: `/tam/yol/to/fonparam-mcp` kısmını projenizin gerçek yolu ile değiştirin.
+> **Not**: Kaynak koddan kurulum için `/tam/yol/to/fonparam-mcp` kısmını projenizin gerçek yolu ile değiştirin.
 
 ### 4. Claude Desktop'ı Yeniden Başlatın
 
