@@ -1,6 +1,6 @@
 {
   "name": "fonparam-mcp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "MCP server for FonParam API - Turkish mutual funds data",
   "mcpName": "io.github.kemalersin/fonparam-mcp",
   "main": "dist/index.js",
