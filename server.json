@@ -10,8 +10,7 @@
   "version": "1.0.3",
   "packages": [
     {
-      "registry_type": "npm",
-      "registry_base_url": "https://registry.npmjs.org",
+      "registryType": "npm",
       "identifier": "fonparam-mcp",
       "version": "1.0.3",
       "transport": {
