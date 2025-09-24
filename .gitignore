@@ -91,6 +91,8 @@ pnpm-lock.yaml
 
 # MCP specific
 *.mcp
+.mcpregistry_github_token
+.mcpregistry_registry_token
 
 # Editor directories and files
 .vscode/*
