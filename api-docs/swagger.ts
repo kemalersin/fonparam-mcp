@@ -46,7 +46,7 @@ Performansı artırmak için önbellek kullanılmaktadır (30 dakika).
                 description: 'Geliştirme Ortamı'
             },
             {
-                url: 'https://api.fonparam.com',
+                url: 'https://fonparam.apimapi.net',
                 description: 'Prodüksiyon Ortamı'
             }
         ],
@@ -230,7 +230,7 @@ Performansı artırmak için önbellek kullanılmaktadır (30 dakika).
                                             company: {
                                                 code: 'APY',
                                                 title: 'ATA PORTFÖY YÖNETİMİ A.Ş.',
-                                                logo: 'https://api.fonparam.com/public/logos/ata_portfoy_icon.png',
+                                                logo: 'https://fonparam.apimapi.net/public/logos/ata_portfoy_icon.png',
                                                 total_funds: 22,
                                                 avg_yield_1d: -0.0042,
                                                 avg_yield_1w: 1.0066,
@@ -666,7 +666,7 @@ Performansı artırmak için önbellek kullanılmaktadır (30 dakika).
                                                         logo: {
                                                             type: 'string',
                                                             description: 'Şirket logosu URL',
-                                                            example: 'https://api.fonparam.com/public/logos/ata_portfoy_icon.png'
+                                                            example: 'https://fonparam.apimapi.net/public/logos/ata_portfoy_icon.png'
                                                         }
                                                     }
                                                 },
@@ -2091,7 +2091,7 @@ Performansı artırmak için önbellek kullanılmaktadır (30 dakika).
                         logo: {
                             type: 'string',
                             description: 'Şirket logosu URL',
-                            example: 'https://api.fonparam.com/public/logos/ata_portfoy_icon.png'
+                            example: 'https://fonparam.apimapi.net/public/logos/ata_portfoy_icon.png'
                         },
                         total_funds: {
                             type: 'integer',
@@ -2721,7 +2721,7 @@ Performansı artırmak için önbellek kullanılmaktadır (30 dakika).
                                             logo: {
                                                 type: 'string',
                                                 description: 'Şirket logosu URL',
-                                                example: 'https://api.fonparam.com/public/logos/ata_portfoy_icon.png'
+                                                example: 'https://fonparam.apimapi.net/public/logos/ata_portfoy_icon.png'
                                             }
                                         }
                                     },
@@ -2858,7 +2858,7 @@ Performansı artırmak için önbellek kullanılmaktadır (30 dakika).
                         {
                             code: 'APY',
                             title: 'ATA PORTFÖY YÖNETİMİ A.Ş.',
-                            logo: 'https://api.fonparam.com/public/logos/ata_portfoy_icon.png',
+                            logo: 'https://fonparam.apimapi.net/public/logos/ata_portfoy_icon.png',
                             total_funds: 22,
                             avg_yield_1d: -0.0042,
                             avg_yield_1w: 1.0066,

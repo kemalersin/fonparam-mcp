@@ -2,7 +2,7 @@
 
 [![smithery badge](https://smithery.ai/badge/@kemalersin/fonparam-mcp)](https://smithery.ai/server/@kemalersin/fonparam-mcp)
 
-Bu Model Context Protocol (MCP) sunucusu, Claude Desktop'un Türkiye'deki yatırım fonları verilerine erişmesini sağlar. [FonParam API](https://api.fonparam.com) üzerinden fonların güncel verilerini, performans istatistiklerini ve karşılaştırmalarını alabilirsiniz.
+Bu Model Context Protocol (MCP) sunucusu, Claude Desktop'un Türkiye'deki yatırım fonları verilerine erişmesini sağlar. [FonParam API](https://fonparam.apimapi.net) üzerinden fonların güncel verilerini, performans istatistiklerini ve karşılaştırmalarını alabilirsiniz.
 
 <a href="https://glama.ai/mcp/servers/@kemalersin/fonparam-mcp">
   <img width="380" height="200" src="https://glama.ai/mcp/servers/@kemalersin/fonparam-mcp/badge" alt="FonParam MCP server" />
@@ -193,7 +193,7 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 
 ## 🔗 Bağlantılar
 
-- [FonParam API Dokümantasyonu](https://api.fonparam.com/api-docs)
+- [FonParam API Dokümantasyonu](https://fonparam.apimapi.net/api-docs)
 - [Model Context Protocol](https://modelcontextprotocol.io/)
 - [Claude Desktop](https://claude.ai/desktop)
 

@@ -53,7 +53,7 @@ npm start
 
 ## 📚 API Dokümantasyonu
 
-API dokümantasyonuna `https://api.fonparam.com/api-docs` adresinden erişebilirsiniz.
+API dokümantasyonuna `https://fonparam.apimapi.net/api-docs` adresinden erişebilirsiniz.
 
 ## 🛠️ Teknolojiler
 

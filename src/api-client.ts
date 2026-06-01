@@ -23,7 +23,7 @@ export class FonParamApiClient {
   private client: AxiosInstance;
   private baseURL: string;
 
-  constructor(baseURL: string = 'https://api.fonparam.com') {
+  constructor(baseURL: string = 'https://fonparam.apimapi.net') {
     this.baseURL = baseURL;
     this.client = axios.create({
       baseURL,
