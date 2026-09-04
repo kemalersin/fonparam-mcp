@@ -1,6 +1,6 @@
 # 📊 FonParam MCP Sunucusu
 
-[![smithery badge](https://smithery.ai/badge/@kemalersin/fonparam-mcp)](https://smithery.ai/server/@kemalersin/fonparam-mcp)
+[![LightNow capabilities](https://lightnow.ai/badge/io.github.kemalersin/fonparam-mcp)](https://lightnow.ai/servers/io.github.kemalersin/fonparam-mcp)
 
 Bu Model Context Protocol (MCP) sunucusu, Claude Desktop'un Türkiye'deki yatırım fonları verilerine erişmesini sağlar. [FonParam API](https://fonparam.apimapi.net) üzerinden fonların güncel verilerini, performans istatistiklerini ve karşılaştırmalarını alabilirsiniz.
 
